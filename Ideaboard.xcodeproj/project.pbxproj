@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72E7AF016B989FB008DDB9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72E7AEF16B989FB008DDB9E /* UIKit.framework */; };
+		F72E7AF216B989FB008DDB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72E7AF116B989FB008DDB9E /* Foundation.framework */; };
+		F72E7AF416B989FB008DDB9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72E7AF316B989FB008DDB9E /* CoreGraphics.framework */; };
+		F72E7AFA16B989FB008DDB9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F72E7AF816B989FB008DDB9E /* InfoPlist.strings */; };
+		F72E7AFC16B989FB008DDB9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E7AFB16B989FB008DDB9E /* main.m */; };
+		F72E7B0016B989FB008DDB9E /* IdeaboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E7AFF16B989FB008DDB9E /* IdeaboardAppDelegate.m */; };
+		F72E7B0216B989FB008DDB9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F72E7B0116B989FB008DDB9E /* Default.png */; };
+		F72E7B0416B989FB008DDB9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72E7B0316B989FB008DDB9E /* Default@2x.png */; };
+		F72E7B0616B989FB008DDB9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72E7B0516B989FB008DDB9E /* Default-568h@2x.png */; };
+		F72E7B0916B989FB008DDB9E /* IdeaboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E7B0816B989FB008DDB9E /* IdeaboardViewController.m */; };
+		F72E7B0C16B989FB008DDB9E /* IdeaboardViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72E7B0A16B989FB008DDB9E /* IdeaboardViewController_iPhone.xib */; };
+		F72E7B0F16B989FB008DDB9E /* IdeaboardViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72E7B0D16B989FB008DDB9E /* IdeaboardViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F72E7AEC16B989FB008DDB9E /* Ideaboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ideaboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E7AEF16B989FB008DDB9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F72E7AF116B989FB008DDB9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F72E7AF316B989FB008DDB9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F72E7AF716B989FB008DDB9E /* Ideaboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ideaboard-Info.plist"; sourceTree = "<group>"; };
+		F72E7AF916B989FB008DDB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F72E7AFB16B989FB008DDB9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F72E7AFD16B989FB008DDB9E /* Ideaboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ideaboard-Prefix.pch"; sourceTree = "<group>"; };
+		F72E7AFE16B989FB008DDB9E /* IdeaboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdeaboardAppDelegate.h; sourceTree = "<group>"; };
+		F72E7AFF16B989FB008DDB9E /* IdeaboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdeaboardAppDelegate.m; sourceTree = "<group>"; };
+		F72E7B0116B989FB008DDB9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F72E7B0316B989FB008DDB9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F72E7B0516B989FB008DDB9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F72E7B0716B989FB008DDB9E /* IdeaboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdeaboardViewController.h; sourceTree = "<group>"; };
+		F72E7B0816B989FB008DDB9E /* IdeaboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdeaboardViewController.m; sourceTree = "<group>"; };
+		F72E7B0B16B989FB008DDB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IdeaboardViewController_iPhone.xib; sourceTree = "<group>"; };
+		F72E7B0E16B989FB008DDB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IdeaboardViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72E7AE916B989FB008DDB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E7AF016B989FB008DDB9E /* UIKit.framework in Frameworks */,
+				F72E7AF216B989FB008DDB9E /* Foundation.framework in Frameworks */,
+				F72E7AF416B989FB008DDB9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72E7AE316B989FB008DDB9E = {
+			isa = PBXGroup;
+			children = (
+				F72E7AF516B989FB008DDB9E /* Ideaboard */,
+				F72E7AEE16B989FB008DDB9E /* Frameworks */,
+				F72E7AED16B989FB008DDB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72E7AED16B989FB008DDB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72E7AEC16B989FB008DDB9E /* Ideaboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72E7AEE16B989FB008DDB9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72E7AEF16B989FB008DDB9E /* UIKit.framework */,
+				F72E7AF116B989FB008DDB9E /* Foundation.framework */,
+				F72E7AF316B989FB008DDB9E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F72E7AF516B989FB008DDB9E /* Ideaboard */ = {
+			isa = PBXGroup;
+			children = (
+				F72E7AFE16B989FB008DDB9E /* IdeaboardAppDelegate.h */,
+				F72E7AFF16B989FB008DDB9E /* IdeaboardAppDelegate.m */,
+				F72E7B0716B989FB008DDB9E /* IdeaboardViewController.h */,
+				F72E7B0816B989FB008DDB9E /* IdeaboardViewController.m */,
+				F72E7B0A16B989FB008DDB9E /* IdeaboardViewController_iPhone.xib */,
+				F72E7B0D16B989FB008DDB9E /* IdeaboardViewController_iPad.xib */,
+				F72E7AF616B989FB008DDB9E /* Supporting Files */,
+			);
+			path = Ideaboard;
+			sourceTree = "<group>";
+		};
+		F72E7AF616B989FB008DDB9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72E7AF716B989FB008DDB9E /* Ideaboard-Info.plist */,
+				F72E7AF816B989FB008DDB9E /* InfoPlist.strings */,
+				F72E7AFB16B989FB008DDB9E /* main.m */,
+				F72E7AFD16B989FB008DDB9E /* Ideaboard-Prefix.pch */,
+				F72E7B0116B989FB008DDB9E /* Default.png */,
+				F72E7B0316B989FB008DDB9E /* Default@2x.png */,
+				F72E7B0516B989FB008DDB9E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72E7AEB16B989FB008DDB9E /* Ideaboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72E7B1216B989FB008DDB9E /* Build configuration list for PBXNativeTarget "Ideaboard" */;
+			buildPhases = (
+				F72E7AE816B989FB008DDB9E /* Sources */,
+				F72E7AE916B989FB008DDB9E /* Frameworks */,
+				F72E7AEA16B989FB008DDB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ideaboard;
+			productName = Ideaboard;
+			productReference = F72E7AEC16B989FB008DDB9E /* Ideaboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72E7AE416B989FB008DDB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ideaboard;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = lgmp.info;
+			};
+			buildConfigurationList = F72E7AE716B989FB008DDB9E /* Build configuration list for PBXProject "Ideaboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F72E7AE316B989FB008DDB9E;
+			productRefGroup = F72E7AED16B989FB008DDB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72E7AEB16B989FB008DDB9E /* Ideaboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72E7AEA16B989FB008DDB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E7AFA16B989FB008DDB9E /* InfoPlist.strings in Resources */,
+				F72E7B0216B989FB008DDB9E /* Default.png in Resources */,
+				F72E7B0416B989FB008DDB9E /* Default@2x.png in Resources */,
+				F72E7B0616B989FB008DDB9E /* Default-568h@2x.png in Resources */,
+				F72E7B0C16B989FB008DDB9E /* IdeaboardViewController_iPhone.xib in Resources */,
+				F72E7B0F16B989FB008DDB9E /* IdeaboardViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72E7AE816B989FB008DDB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E7AFC16B989FB008DDB9E /* main.m in Sources */,
+				F72E7B0016B989FB008DDB9E /* IdeaboardAppDelegate.m in Sources */,
+				F72E7B0916B989FB008DDB9E /* IdeaboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F72E7AF816B989FB008DDB9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72E7AF916B989FB008DDB9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F72E7B0A16B989FB008DDB9E /* IdeaboardViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72E7B0B16B989FB008DDB9E /* en */,
+			);
+			name = IdeaboardViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F72E7B0D16B989FB008DDB9E /* IdeaboardViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72E7B0E16B989FB008DDB9E /* en */,
+			);
+			name = IdeaboardViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72E7B1016B989FB008DDB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F72E7B1116B989FB008DDB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72E7B1316B989FB008DDB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ideaboard/Ideaboard-Prefix.pch";
+				INFOPLIST_FILE = "Ideaboard/Ideaboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F72E7B1416B989FB008DDB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ideaboard/Ideaboard-Prefix.pch";
+				INFOPLIST_FILE = "Ideaboard/Ideaboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72E7AE716B989FB008DDB9E /* Build configuration list for PBXProject "Ideaboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72E7B1016B989FB008DDB9E /* Debug */,
+				F72E7B1116B989FB008DDB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72E7B1216B989FB008DDB9E /* Build configuration list for PBXNativeTarget "Ideaboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72E7B1316B989FB008DDB9E /* Debug */,
+				F72E7B1416B989FB008DDB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72E7AE416B989FB008DDB9E /* Project object */;
+}
