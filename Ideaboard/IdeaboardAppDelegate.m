@@ -10,6 +10,9 @@
 
 #import "IdeaboardViewController.h"
 
+#import "EvernoteSession.h"
+#import "ENConstants.h"
+
 @implementation IdeaboardAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -23,6 +26,16 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    // Added for Evernote.
+    NSString *EVERNOTE_HOST = BootstrapServerBaseURLStringSandbox;
+    NSString *CONSUMER_KEY = @"zer0her0-9868";
+    NSString *CONSUMER_SECRET = @"6dc79fe4493937e4";
+    
+    [EvernoteSession setSharedSessionHost:EVERNOTE_HOST
+                              consumerKey:CONSUMER_KEY
+                           consumerSecret:CONSUMER_SECRET];
+    
     return YES;
 }
 

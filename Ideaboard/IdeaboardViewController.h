@@ -10,4 +10,8 @@
 
 @interface IdeaboardViewController : UIViewController
 
+// Added for Evernote.
+@property (strong, nonatomic) IBOutlet UIButton *testButton;
+- (IBAction)testEvernoteAuth:(id)sender;
+
 @end

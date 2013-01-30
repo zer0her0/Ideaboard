@@ -8,6 +8,10 @@
 
 #import "IdeaboardViewController.h"
 
+#import "IdeaboardAppDelegate.h"
+#import "EvernoteSession.h"
+#import "EvernoteUserStore.h"
+
 @interface IdeaboardViewController ()
 
 @end
@@ -24,6 +28,36 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// Added for Evernote.
+- (IBAction)testEvernoteAuth:(id)sender
+{
+    EvernoteSession *session = [EvernoteSession sharedSession];
+    NSLog(@"Session host: %@", [session host]);
+    NSLog(@"Session key: %@", [session consumerKey]);
+    NSLog(@"Session secret: %@", [session consumerSecret]);
+    
+    [session authenticateWithViewController:self completionHandler:^(NSError *error) {
+        if (error || !session.isAuthenticated){
+            if (error) {
+                NSLog(@"Error authenticating with Evernote Cloud API: %@", error);
+            }
+            if (!session.isAuthenticated) {
+                NSLog(@"Session not authenticated");
+            }
+        } else {
+            // We're authenticated!
+            EvernoteUserStore *userStore = [EvernoteUserStore userStore];
+            [userStore getUserWithSuccess:^(EDAMUser *user) {
+                // success
+                NSLog(@"Authenticated as %@", [user username]);
+            } failure:^(NSError *error) {
+                // failure
+                NSLog(@"Error getting user: %@", error);
+            } ];
+        }
+    }];
 }
 
 @end
